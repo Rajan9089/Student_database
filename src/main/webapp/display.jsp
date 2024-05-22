@@ -28,7 +28,7 @@
         p {
             margin: 10px 0;
             color: #666;
-            font-size: 18px; /* Increased font size for better visibility */
+            font-size: 18px; 
         }
     </style>
 </head>

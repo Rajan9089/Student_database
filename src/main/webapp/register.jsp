@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,26 +79,26 @@
                 <option value="Other">Other</option>
             </select>
 
-            <label for="currentYear">Current Year:</label>
-            <select id="currentYear" name="currentYear" required>
+            <label for="semester">Semester:</label>
+            <select id="semester" name="semester" required>
                 <option value="First">First</option>
                 <option value="Second">Second</option>
                 <option value="Third">Third</option>
                 <option value="Fourth">Fourth</option>
+                <option value="Fifth">Fifth</option>
+                <option value="Sixth">Sixth</option>
+                <option value="Seventh">Seventh</option>
+                <option value="Eighth">Eighth</option>
             </select>
 
-            <label for="passoutYear">Passout Year:</label>
-            <input type="number" id="passoutYear" name="passoutYear" required>
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
 
-            <label for="branch">Branch:</label>
-            <input type="text" id="branch" name="branch" required>
+            <label for="collegeName">College Name:</label>
+            <input type="text" id="collegeName" name="collegeName" required>
 
             <input type="submit" value="Register">
         </form>
     </div>
 </body>
 </html>
-
-
-
-
